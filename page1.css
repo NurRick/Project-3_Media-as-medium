@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kanit:wght@500;700&display=swap');
+
+html {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F1F1;
+    margin: 0;
+}
+
+.main-section {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+
+}
+
+.head-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+
+.mediumAlike {
+    display: flex;
+}
+
+.mediumAlike h6 {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.helloWorld h1 {
+        margin: 0;
+    line-height: 120px;
+    font-weight: 500;
+    font-size: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+/* Section First content */
+
+.firstContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstContentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.fcIntroduse {
+    display: flex;
+    flex-direction: row;
+}
+
+.fcIntAva {
+    display: flex;
+    align-items: center;
+    height: 24px;
+
+}
+
+.fcIntAva img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.fcIntHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fcIntHead h5 {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.fcCont p {
+    margin: 0;
+    width: 693px;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    /* padding-top: ;
+    padding-bottom: ; */
+}
+
+.fcLastLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 755px;
+    height: 30px;
+    margin-right: 100px;
+}
+
+.fcLastLine1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.fcLastLineButton {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.fcLastLineButton button {
+    width: 107px;
+    height: 30px;
+    padding: 0;
+    background-color: lightgray;
+    border-radius: 100px;
+    border: 0; 
+}
+
+.fcLastLineButton p {
+    margin: 0;
+}
+
+.fcLastLineGB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    height: 24px;
+}
+
+.grayBox {
+    width: 24px;
+    height: 24px;
+    background-color: lightgray;
+}
+
+.fcLastLine p {
+    margin: 0;
+}
+
+/* Section Last section */
+
+.last-section {
+    margin-top: 778px;
+}
+
+.last-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    opacity: 0.5;
+}
+
+.last-text p {
+    margin: 0;
+}
+
+.nFactlorial {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+}
