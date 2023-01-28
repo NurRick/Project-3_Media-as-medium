@@ -62,7 +62,9 @@ let article =
         <div class="fcLastLine">
             <div class="fcLastLine1">
                 <div class="fcLastLineButton">
-                    <button>Read more</button>
+                    <button class="fcLastLineButt>
+                        <p>Read more</p>
+                    </button>
                 </div>
                 <div>
                     <p class="opacity" id="readingTime"></p>

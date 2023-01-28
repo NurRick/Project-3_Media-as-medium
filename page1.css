@@ -8,17 +8,19 @@ html {
 
 body {
     font-family: 'Kanit', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #DA291C;
-    margin: auto;
-    width: 80%;
+    background-color: #F1F1F1;
+    margin: 0;
+    width: 1519px;
+    justify-content: center;
+
+    
 }
 
 .main-section {
     display: flex;
-    /* justify-content:space-between; */
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
     flex-direction: column;
     width: 100%;
 
@@ -27,15 +29,17 @@ body {
 }
 
 .head-section {
+    background-color: #DA291C;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    
+    width: 100%;
 }
 
 .mediumAlike {
     display: flex;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .mediumAlike h6 {
@@ -53,17 +57,24 @@ body {
     font-size: 48px;
     padding-top: 64px;
     padding-bottom: 64px;
+    padding-left: 160px;
 }
 
 /* Section First content */
+
+.articles {
+    display: flex;
+    flex-direction: column;
+}
 
 .firstContent {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
     padding-top: 45px;
-    padding-bottom: 45px
+    padding-bottom: 45px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .firstContentText {
@@ -205,6 +216,8 @@ body {
 /* Section Last section */
 
 .last-section {
+    background-color: #DA291C;
+    width: 100%;
     margin-top: 778px;
 }
 
@@ -213,6 +226,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     opacity: 0.5;
+    padding-right: 160px;
 }
 
 .last-text p {
@@ -224,4 +238,5 @@ body {
     padding-bottom: 32px;
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 160px;
 }
