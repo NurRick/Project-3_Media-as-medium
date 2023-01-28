@@ -2,8 +2,8 @@
 
 html {
     display: flex;
-    align-content: center;
     justify-content: center;
+    
 }
 
 body {
@@ -11,14 +11,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F1F1F1;
-    margin: 0;
+    background-color: #DA291C;
+    margin: auto;
+    width: 80%;
 }
 
 .main-section {
     display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     flex-direction: column;
+    width: 100%;
+
     
 
 }
@@ -57,6 +60,10 @@ body {
 .firstContent {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px
 }
 
 .firstContentText {
@@ -103,6 +110,24 @@ body {
     opacity: 0.5;
 }
 
+
+
+
+.fcTitle {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 28px;
+    
+}
+
+.fcCont {
+    padding-bottom: 45px
+}
+
+
+
+
 .fcCont p {
     margin: 0;
     width: 693px;
@@ -132,9 +157,12 @@ body {
 .fcLastLineButton {
     display: flex;
     align-items: center;
-
-
 }
+
+.fcLastLineButton p{
+    color: aqua;
+}
+
 
 .fcLastLineButton button {
     width: 107px;
@@ -166,6 +194,13 @@ body {
 .fcLastLine p {
     margin: 0;
 }
+
+.firstContentImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
 
 /* Section Last section */
 
