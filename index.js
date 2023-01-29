@@ -78,13 +78,13 @@ let article =
             </div>
             <div class="fcLastLineGB">
                 <div>
-                    <img src="./assets/LinkedIn.png"/>
+                    <a href="https://www.linkedin.com/feed/"> <img src="./assets/LinkedIn.png"/></a> 
                 </div>
                 <div>
-                    <img src="./assets/Facebook Circled.png"/>
+                    <a href="https://www.facebook.com/"> <img src="./assets/Facebook Circled.png"/></a>      
                 </div>
                 <div>
-                    <img src="./assets/Twitter.png"/>
+                    <a href="https://www.facebook.com/"><img src="./assets/Twitter.png"/></a>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@ async function fetchData() {
         data.results.forEach((item) => {
             let newArticle = article.replace('id="author">',`id="author">${item.byline}`);
             newArticle = newArticle.replace('id="topic">', `id="topic">${item.section}`);
-            newArticle = newArticle.replace('id="date">', `id="date">${item.published_date}`);
+            newArticle = newArticle.replace('id="date">', `id="date">${item.published_date.substring(0,10)}`);
             newArticle = newArticle.replace('id="title">', `id="title">${item.title}`);
             newArticle = newArticle.replace('id="summary">', `id="summary">${item.abstract}`);
             newArticle = newArticle.replace('src=""', `src="${item.multimedia[0].url}"`);

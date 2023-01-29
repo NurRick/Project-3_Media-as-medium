@@ -4,6 +4,13 @@
     padding-left: 160px;
 }
 
+.fromJS {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
 .aboutAuthor {
     padding-top: 96px;
     display: flex;
@@ -71,6 +78,8 @@
 }
 
 .bigSection p {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -79,6 +88,8 @@
 .bigSection img {
     padding-top: 70px;
     padding-bottom: 70px;
+    width: 100%
+
 }
 
 .bsLastLine {
